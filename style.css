@@ -93,16 +93,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-/* = Sticky Nav
--------------------------------------------------------------- */
-
-.sticky-nav.sticky{
-	position:fixed;
-	top:0;
-	z-index:1000;
-	box-shadow:0 1px 2px rgba(0,0,0,.3);
-	 transition: all .2s ease-out;
-}
 /* Navbar Icon */
 .svg-menu-icon{
 	fill: none;
@@ -164,6 +154,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:100%;
 	left:auto}
 }
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -178,17 +175,18 @@ button{
 	outline: none!important;
 }
 
-.btn-sq{
-	border-radius: 0px;
-}
 .btn-rd{
 	border-radius: 40px;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
 }
 
 /* = Icons
 -------------------------------------------------------------- */
-.icon-xl{
-	font-size:100px!important;
+.icon-lg{
+	font-size:60px!important;
 }
 
 
@@ -236,7 +234,11 @@ button{
 	box-shadow:none;
 }
 
+/* Additional Aspect Ratios */
 
+.ratio-4x4::before{
+	padding-top:100%}.ratio-9x16::before{
+	padding-top:106.25%}
 
 /* ScrollToTop button */
 
@@ -456,11 +458,15 @@ url("img/graphic-2.webp") 2x);
 }
 .container-div-bloc-0-style{
 	height:261px;
+	width:96.25%;
 }
 .btn-style{
 	width:100%;
 	padding-top:48px;
 	padding-bottom:48px;
+}
+.p-style{
+	width:100%;
 }
 
 /* = Colour
@@ -473,11 +479,11 @@ url("img/graphic-2.webp") 2x);
 	
 	--swatch-var-Background:rgba(245,245,247,1.00);
 	
-	--swatch-var-Black:rgba(0,0,0,1.00);
+	--swatch-var-Black:#190000;
 	
 	--swatch-var-Black-05:rgba(0,0,0,0.40);
 	
-	--swatch-var-Primary:rgba(4,51,255,1.00);
+	--swatch-var-Primary:#0002FA;
 	
 	--swatch-var-Primary-Variant:rgba(255,64,255,1.00);
 	
@@ -492,11 +498,11 @@ url("img/graphic-2.webp") 2x);
 
 /* Text colour styles */
 
-.tc-3849{
-	color:var(--swatch-var-White)!important;
-}
 .tc-2190{
 	color:var(--swatch-var-Black)!important;
+}
+.tc-3849{
+	color:var(--swatch-var-White)!important;
 }
 
 /* Button colour styles */
@@ -506,18 +512,27 @@ url("img/graphic-2.webp") 2x);
 	color:#FFFFFF!important;
 }
 .btn-c-3726:hover{
-	background:#0000CC!important;
+	background:#0000C7!important;
 	color:#FFFFFF!important;
 }
 
 /* Link colour styles */
 
-.ltc-2190{
-	color:var(--swatch-var-Black)!important;
+.ltc-3726{
+	color:var(--swatch-var-Primary)!important;
 }
-.ltc-2190:hover{
-	color:#000000!important;
+.ltc-3726:hover{
+	color:#0000C7!important;
 }
+
+/* Icon colour styles */
+
+.icon-3726{
+	color:var(--swatch-var-Primary)!important;
+	border-color:var(--swatch-var-Primary)!important;
+}
+
+/* Bloc image backgrounds */
 
 
 
@@ -614,6 +629,13 @@ url("img/graphic-2.webp") 2x);
 	.bento-box{
 		padding:30px 30px 30px 30px;
 	}
+	.mt-md-0{
+	}
+	.mt-md-4{
+	}
+	.p-style{
+		width:100%;
+	}
 	
 }
 
@@ -675,7 +697,19 @@ url("img/graphic-2.webp") 2x);
 		font-size:22px;
 	}
 	.container-div-bloc-0-style{
-		height:147px;
+		height:184px;
+	}
+	.mt-1{
+	}
+	.btn-style{
+		padding-top:24px;
+		padding-bottom:24px;
+	}
+	.container-div-bloc-4-style{
+		height:70px;
+	}
+	.primary-gradient{
+		background:linear-gradient(335deg, var(--swatch-var-Primary)   0%, var(--swatch-var-Black) 100%);
 	}
 	
 }
