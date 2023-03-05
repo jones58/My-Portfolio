@@ -168,6 +168,9 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-rd{
 	border-radius: 40px;
 }
@@ -449,15 +452,6 @@ url("img/graphic-2.webp") 2x);
 .row-style{
 	width:100%;
 }
-.container-div-bloc-0-style{
-	height:261px;
-	width:96.25%;
-}
-.btn-style{
-	width:100%;
-	padding-top:48px;
-	padding-bottom:48px;
-}
 .p-style{
 	width:100%;
 	font-size:20px;
@@ -465,6 +459,17 @@ url("img/graphic-2.webp") 2x);
 }
 .h1-style{
 	font-size:40px;
+}
+.h2-style{
+	width:100%;
+}
+.link-sitemap-style{
+	text-decoration:none;
+	font-weight:bold;
+}
+.btn-style{
+	width:100%;
+	font-weight:bold;
 }
 
 /* = Colour
@@ -483,15 +488,15 @@ url("img/graphic-2.webp") 2x);
 	
 	--swatch-var-Primary:#0002FA;
 	
-	--swatch-var-Primary-Variant:rgba(255,64,255,1.00);
+	--swatch-var-Primary-Variant:#FFD8FF;
 	
 }
 
 
 /* Background colour styles */
 
-.bgc-3849{
-	background-color:var(--swatch-var-White);
+.bgc-5341{
+	background-color:var(--swatch-var-Primary-Variant);
 }
 
 /* Text colour styles */
@@ -697,14 +702,7 @@ url("img/graphic-2.webp") 2x);
 	.link-style{
 		font-size:22px;
 	}
-	.container-div-bloc-0-style{
-		height:184px;
-	}
 	.mt-1{
-	}
-	.btn-style{
-		padding-top:24px;
-		padding-bottom:24px;
 	}
 	.container-div-bloc-4-style{
 		height:70px;
