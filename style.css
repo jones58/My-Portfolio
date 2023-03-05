@@ -264,7 +264,6 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
-	font-size:16px;
 	color:var(--swatch-var-Black)!important;
 }
 .container{
@@ -470,7 +469,7 @@ url("img/graphic-2.webp") 2x);
 /* Swatch Variables */
 :root{
 	
-	--swatch-var-White:rgba(255,255,255,1.00);
+	--swatch-var-White:#FFFDFD;
 	
 	--swatch-var-Background:rgba(245,245,247,1.00);
 	
@@ -487,6 +486,9 @@ url("img/graphic-2.webp") 2x);
 
 /* Background colour styles */
 
+.bgc-970{
+	background-color:var(--swatch-var-Background);
+}
 .bgc-3849{
 	background-color:var(--swatch-var-White);
 }
@@ -498,6 +500,9 @@ url("img/graphic-2.webp") 2x);
 }
 .tc-3849{
 	color:var(--swatch-var-White)!important;
+}
+.tc-6153{
+	color:var(--swatch-var-Black-05)!important;
 }
 
 /* Button colour styles */
