@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	Jack Kershaw
+	My-Portfolio
 	About: My portfolio website
 	Author: Jack Kershaw
 	Version: 1.0
@@ -478,11 +478,11 @@ url("img/graphic-2.webp") 2x);
 /* Swatch Variables */
 :root{
 	
-	--swatch-var-White:rgba(255,255,255,1.00);
+	--swatch-var-White:#F5F5F7;
 	
 	--swatch-var-Background:rgba(245,245,247,1.00);
 	
-	--swatch-var-Black:#190000;
+	--swatch-var-Black:#0D0C1D;
 	
 	--swatch-var-Black-05:rgba(0,0,0,0.40);
 	
