@@ -33,6 +33,7 @@ navbar {
 a {
   text-decoration: none;
 }
+
 #welcome-section {
   height: 100vh;
   margin-top: 1.5rem;
@@ -45,7 +46,7 @@ a {
 }
 
 #welcome-section p {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .videos {
@@ -60,9 +61,18 @@ a {
   max-width: 40vw;
 }
 
-#projects h1,
-#projects p {
-  padding: 1rem;
+.projects-description h1 {
+  font-size: 2.5rem;
+}
+
+.projects-description p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.projects-description h1,
+.projects-description p {
+  padding: 0rem 1rem;
 }
 
 iframe {
