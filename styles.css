@@ -4,6 +4,7 @@ html {
   margin: 0;
   padding: 0;
   color: #0002f0;
+  width: 100vw;
 }
 
 @media screen {
@@ -35,6 +36,7 @@ a {
 #welcome-section {
   height: 100vh;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 1rem;
 }
 
