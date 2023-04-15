@@ -17,17 +17,23 @@ footer {
   padding: 1rem;
 }
 
+header,
 navbar {
   position: fixed;
   top: 0;
+}
+
+navbar {
   font-size: 2rem;
   padding: 1rem 0;
 }
+
 a {
   text-decoration: none;
 }
 #welcome-section {
   height: 100vh;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -41,12 +47,24 @@ a {
 
 .videos {
   display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.videos div {
+  max-width: 40vw;
 }
 
 #projects h1,
 #projects p {
   padding: 1rem;
+}
+
+iframe {
+  max-height: 40vw;
+  max-width: 40vw;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
