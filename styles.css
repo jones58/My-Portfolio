@@ -99,6 +99,7 @@ a {
   }
   .videos div {
     min-width: 80vw;
+    max-width: 80vw;
   }
 
   #projects p {
