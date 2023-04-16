@@ -20,19 +20,6 @@ footer {
   padding: 1rem;
 }
 
-navbar,
-#footer-text {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  display: flex;
-  gap: 2rem;
-  position: absolute;
-  font-size: 2rem;
-  max-width: 90%;
-}
-
 navbar a:active,
 #footer-text a:active {
   color: black;
@@ -92,11 +79,6 @@ a {
   color: #767684;
 }
 
-iframe {
-  max-height: 40vw;
-  max-width: 40vw;
-}
-
 @media screen and (max-width: 500px) {
   html {
     font-size: 12px;
@@ -104,9 +86,23 @@ iframe {
   .videos div {
     min-width: 80vw;
   }
+
   iframe {
     min-width: 80vw;
     min-height: 80vw;
+  }
+
+  navbar,
+  #footer-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    font-size: 2rem;
+    max-width: 90%;
   }
 }
 
@@ -116,6 +112,24 @@ iframe {
   }
   .videos div {
     max-width: 40vw;
+  }
+
+  iframe {
+    max-height: 40vw;
+    max-width: 40vw;
+  }
+
+  navbar,
+  #footer-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    font-size: 2rem;
+    max-width: 90%;
   }
 }
 
