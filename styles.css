@@ -1,5 +1,4 @@
 * {
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -10,7 +9,6 @@ html {
   padding: 0;
   color: #0002f0;
   width: 100%;
-  height: 100%;
 }
 
 header {
