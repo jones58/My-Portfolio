@@ -1,6 +1,6 @@
 * {
-  overflow-x: clip;
-  overflow-y: inherit;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 html {
