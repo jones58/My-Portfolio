@@ -43,9 +43,7 @@ a {
 
 #welcome-section {
   height: 100vh;
-  margin-top: 4rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 #welcome-section h1 {
