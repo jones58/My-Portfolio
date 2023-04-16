@@ -99,6 +99,7 @@ a {
   }
   .videos div {
     min-width: 80vw;
+    max-width: 90vw;
   }
 
   #projects p {
@@ -113,7 +114,6 @@ a {
   iframe {
     min-width: 80vw;
     min-height: 80vw;
-    margin-right: 1rem;
   }
 
   navbar,
