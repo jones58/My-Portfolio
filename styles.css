@@ -1,14 +1,15 @@
+* {
+  border: 1px solid black;
+}
+
 html {
-  box-sizing: border-box;
   font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: #0002f0;
-  width: 100vw;
-}
-
-body {
-  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -26,6 +27,8 @@ footer {
 
 footer {
   height: 7.5vh;
+  position: absolute;
+  width: 100%;
 }
 
 navbar,
@@ -51,7 +54,7 @@ a {
 
 #welcome-section {
   height: 100vh;
-  padding: 4rem 1rem;
+  padding: 6rem 1rem;
 }
 
 #welcome-section h1 {
@@ -63,7 +66,6 @@ a {
 }
 
 .projects-description {
-  margin-top: 10rem;
   padding-top: 7.5vh;
 }
 
@@ -97,7 +99,7 @@ a {
   color: #767684;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 12px;
   }
@@ -117,7 +119,9 @@ a {
 
   iframe {
     min-width: 80vw;
+    max-width: 80vw;
     min-height: 80vw;
+    max-height: 80vw;
   }
 
   navbar,
@@ -126,17 +130,17 @@ a {
   }
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 768px) {
   html {
     font-size: 16px;
   }
   .videos div {
-    max-width: 40vw;
+    max-width: 30vw;
   }
 
   iframe {
-    max-height: 40vw;
-    max-width: 40vw;
+    max-height: 30vw;
+    max-width: 30vw;
   }
 
   navbar,
