@@ -20,6 +20,18 @@ footer {
   padding: 1rem;
 }
 
+navbar,
+#footer-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  position: absolute;
+  font-size: 2rem;
+  max-width: 90%;
+}
+
 navbar a:active,
 #footer-text a:active {
   color: black;
@@ -79,7 +91,7 @@ a {
   color: #767684;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   html {
     font-size: 12px;
   }
@@ -94,18 +106,11 @@ a {
 
   navbar,
   #footer-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
-    position: absolute;
-    font-size: 2rem;
-    max-width: 90%;
+    gap: 1.5rem;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 540px) {
   html {
     font-size: 16px;
   }
@@ -120,15 +125,7 @@ a {
 
   navbar,
   #footer-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
-    gap: 2rem;
-    position: absolute;
-    font-size: 2rem;
-    max-width: 90%;
+    gap: 3rem;
   }
 }
 
