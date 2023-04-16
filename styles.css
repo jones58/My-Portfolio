@@ -30,7 +30,7 @@ navbar,
   gap: 2rem;
   position: absolute;
   font-size: 2rem;
-  max-width: 95%;
+  max-width: 90%;
 }
 
 navbar a:active,
