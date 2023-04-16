@@ -1,5 +1,5 @@
 * {
-  border: 2px solid black;
+  overflow-x: hidden;
 }
 
 html {
@@ -9,7 +9,6 @@ html {
   padding: 0;
   color: #0002f0;
   width: 100%;
-  overflow-x: hidden;
 }
 
 header {
