@@ -113,6 +113,7 @@ a {
   iframe {
     min-width: 80vw;
     min-height: 80vw;
+    margin-right: 1rem;
   }
 
   navbar,
