@@ -26,12 +26,12 @@ footer {
 
 navbar,
 #footer-text {
+  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   display: flex;
-  position: absolute;
   font-size: 2rem;
   max-width: 90%;
 }
