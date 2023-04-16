@@ -99,7 +99,6 @@ a {
     align-items: center;
     justify-content: space-evenly;
     display: flex;
-    gap: 1rem;
     position: absolute;
     font-size: 2rem;
     max-width: 90%;
