@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 html {
@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 0;
   color: #0002f0;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -77,7 +77,8 @@ a {
   align-items: stretch;
 }
 
-.videos div {
+.videos div,
+.videos youtube {
   max-width: 40vw;
 }
 
