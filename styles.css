@@ -8,12 +8,8 @@ html {
   margin: 0;
   padding: 0;
   color: #0002f0;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
-}
-
-body {
-  width: 100vw;
 }
 
 header {
@@ -139,6 +135,7 @@ a {
   html {
     font-size: 16px;
   }
+
   .videos div {
     max-width: 30vw;
   }
