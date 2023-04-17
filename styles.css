@@ -99,6 +99,10 @@ a {
   color: #767684;
 }
 
+iframe {
+  border: none;
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 12px;
