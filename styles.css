@@ -16,11 +16,6 @@ footer {
   background-color: #f9dafd;
 }
 
-navbar,
-#footer-text {
-  gap: 3rem;
-}
-
 footer {
   height: 3rem;
 }
@@ -89,7 +84,7 @@ iframe {
   }
 
   footer {
-    height: 2rem;
+    height: 4rem;
   }
 
   header,
@@ -139,6 +134,11 @@ iframe {
 @media screen and (min-width: 1280px) {
   html {
     font-size: 18px;
+  }
+
+  navbar,
+  #footer-text {
+    gap: 3rem;
   }
 
   footer {
