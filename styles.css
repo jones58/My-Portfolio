@@ -15,14 +15,9 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  height: 3rem;
-}
-
 header,
 footer {
   background-color: #f9dafd;
-  max-width: 100vw;
   padding: 3rem;
 }
 
@@ -33,11 +28,11 @@ navbar,
 
 footer {
   height: 3rem;
-  width: 100%;
 }
 
 #projects-description {
   padding: 3rem;
+  padding-top: 8rem;
 }
 
 navbar,
@@ -58,10 +53,6 @@ navbar a:active,
 a {
   text-decoration: none;
   color: currentColor;
-}
-
-#projects-description {
-  padding-top: 8rem;
 }
 
 .videos {
@@ -117,12 +108,12 @@ iframe {
     max-width: 80vw;
   }
 
-  #projects p {
+  #projects-description p {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
-  #projects h3 {
+  #projects-description h1 {
     font-size: 2rem;
   }
 
