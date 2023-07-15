@@ -88,9 +88,17 @@ iframe {
     font-size: 14px;
   }
 
+  footer {
+    height: 2rem;
+  }
+
   header,
   footer {
     padding: 2rem;
+  }
+
+  header {
+    padding-bottom: 4rem;
   }
 
   .videos div {
@@ -121,6 +129,11 @@ iframe {
     font-size: 1.5rem;
     position: absolute;
   }
+
+  navbar > a,
+  #footer-text > a {
+    padding: 1rem;
+  }
 }
 
 /* desktop only */
@@ -129,9 +142,17 @@ iframe {
     font-size: 18px;
   }
 
+  footer {
+    height: 3rem;
+  }
+
   header,
   footer {
     padding: 3rem;
+  }
+
+  header {
+    padding-bottom: 5rem;
   }
 
   navbar,
