@@ -134,6 +134,9 @@ iframe {
     gap: 1.5rem;
     max-width: 90vw;
   }
+  #welcome-section {
+    margin-bottom: 100px;
+  }
 }
 
 /* desktop only */
