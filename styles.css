@@ -1,7 +1,11 @@
+* {
+  border: solid 1px black;
+}
+
 html {
   font-family: Helvetica, sans-serif;
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   color: #0002f0;
   background-color: rgb(249, 244, 241);
@@ -12,22 +16,28 @@ body {
 }
 
 header {
-  position: fixed;
-  top: 0px;
   height: 3rem;
 }
 
 header,
 footer {
   background-color: #f9dafd;
-  width: 100%;
+  max-width: 100vw;
   padding: 3rem;
+}
+
+navbar,
+#footer-text {
+  gap: 3rem;
 }
 
 footer {
   height: 3rem;
-  position: absolute;
   width: 100%;
+}
+
+#projects-description {
+  padding: 3rem;
 }
 
 navbar,
@@ -37,7 +47,6 @@ navbar,
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 2rem;
   max-width: 90%;
 }
 
@@ -51,21 +60,8 @@ a {
   color: currentColor;
 }
 
-#welcome-section {
-  padding: 6rem 1rem;
-  height: 100vh;
-}
-
-#welcome-section h1 {
-  font-size: 4rem;
-}
-
-#welcome-section p {
-  font-size: 3rem;
-}
-
-.projects-description {
-  padding-top: 4rem;
+#projects-description {
+  padding-top: 8rem;
 }
 
 .videos {
@@ -81,18 +77,13 @@ a {
   max-width: 40vw;
 }
 
-.projects-description h1 {
+#projects-description h1 {
   font-size: 2.5rem;
 }
 
-.projects-description p {
+#projects-description p {
   font-size: 1.25rem;
   line-height: 1.5rem;
-}
-
-.projects-description h1,
-.projects-description p {
-  padding: 0rem 1rem;
 }
 
 .video-description {
@@ -103,15 +94,24 @@ iframe {
   border: none;
 }
 
-#projects {
-  margin-top: 3rem;
+#welcome-section {
+  padding: 3rem;
+}
+
+#welcome-section h1 {
+  font-size: 4rem;
+}
+
+#welcome-section p {
+  font-size: 3rem;
 }
 
 /* mobile only */
 @media screen and (max-width: 1280px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
+
   .videos div {
     min-width: 80vw;
     max-width: 80vw;
@@ -137,13 +137,7 @@ iframe {
   #footer-text {
     gap: 1.5rem;
     max-width: 90vw;
-  }
-  #welcome-section {
-    margin-bottom: 100px;
-  }
-
-  #projects {
-    margin-top: 200px;
+    font-size: 1.5rem;
   }
 }
 
@@ -151,7 +145,6 @@ iframe {
 @media screen and (min-width: 1280px) {
   html {
     font-size: 18px;
-    padding: 20px 0;
   }
 
   .videos div {
@@ -163,8 +156,13 @@ iframe {
     max-width: 30vw;
   }
 
+  #welcome-section {
+    margin-top: 3rem;
+    height: 100vh;
+  }
+
   navbar,
   #footer-text {
-    gap: 3rem;
+    font-size: 2rem;
   }
 }
