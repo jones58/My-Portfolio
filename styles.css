@@ -1,7 +1,7 @@
 html {
   font-family: Helvetica, sans-serif;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   color: #0002f0;
   background-color: rgb(249, 244, 241);
@@ -14,18 +14,18 @@ body {
 header {
   position: fixed;
   top: 0px;
-  height: 4rem;
+  height: 3rem;
 }
 
 header,
 footer {
   background-color: #f9dafd;
   width: 100%;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 footer {
-  height: 4rem;
+  height: 3rem;
   position: absolute;
   width: 100%;
 }
@@ -101,6 +101,10 @@ a {
 
 iframe {
   border: none;
+}
+
+#projects {
+  margin-top: 3rem;
 }
 
 /* mobile only */
