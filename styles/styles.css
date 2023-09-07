@@ -79,6 +79,7 @@ a:active {
 #footer-text a:hover {
   color: var(--green);
 }
+
 .page {
   padding: 0 5vw;
   display: flex;
@@ -194,6 +195,14 @@ h3 {
   font-size: 40px;
 }
 
+#contact-me {
+  width: 80vw;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: var(--blue);
+  color: var(--cream);
+}
+
 /* desktop only */
 
 @media screen and (min-width: 1280px) {
@@ -206,9 +215,14 @@ h3 {
     margin: 0 5vw;
   }
 
-  #big-introduction {
+  .big-introduction {
     font-size: 4rem;
     line-height: 4rem;
+  }
+
+  .medium-introduction {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 
   iframe {
