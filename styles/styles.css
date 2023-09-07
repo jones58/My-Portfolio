@@ -125,7 +125,7 @@ h3 {
 }
 
 #projects {
-  padding: 10vh 5vw;
+  padding: 0vh 5vw 10vh 5vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -194,8 +194,9 @@ footer {
   margin-bottom: -5vh;
 }
 
-#about-me {
+.about-me {
   height: 100vh;
+  font-size: 40px;
 }
 
 /* desktop only */
