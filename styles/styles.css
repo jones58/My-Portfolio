@@ -132,18 +132,13 @@ h3 {
 }
 
 .darkMode,
-footer {
+.darkMode footer {
   background-color: var(--blue);
 }
 
 .darkMode .page,
 .darkMode a {
   color: var(--cream);
-}
-
-.darkMode img,
-.darkMode iframe {
-  filter: brightness(50%);
 }
 
 .darkMode #dark-mode {
@@ -194,7 +189,7 @@ footer {
   margin-bottom: -5vh;
 }
 
-.about-me {
+#about-me {
   height: 100vh;
   font-size: 40px;
 }
@@ -209,6 +204,11 @@ footer {
     align-items: center;
     justify-content: space-between;
     margin: 0 5vw;
+  }
+
+  #big-introduction {
+    font-size: 4rem;
+    line-height: 4rem;
   }
 
   iframe {
@@ -324,6 +324,11 @@ footer {
     text-align: center;
   }
 
+  #big-introduction {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
   svg {
     margin-top: 0.25rem;
   }
@@ -367,9 +372,6 @@ footer {
   footer {
     padding-bottom: 4vh;
     padding-top: 3vh;
-  }
-  #bottom-to-top {
-    display: none;
   }
 }
 
