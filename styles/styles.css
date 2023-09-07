@@ -43,7 +43,6 @@ navbar {
 }
 
 header {
-  background-color: var(--blue);
   color: var(--green);
   text-decoration: none;
 }
@@ -132,7 +131,6 @@ h3 {
 }
 
 .darkMode,
-header,
 footer {
   background-color: var(--blue);
 }
@@ -183,8 +181,7 @@ footer {
 .plainTextMode .dashed-line-left,
 .plainTextMode .dashed-line-right,
 .plainTextMode .dashed-line-left-straight-short,
-.plainTextMode .dashed-line-right-straight-short,
-.plainTextMode #header-img-container {
+.plainTextMode .dashed-line-right-straight-short {
   display: none;
 }
 
@@ -194,6 +191,10 @@ footer {
 
 #last-line {
   margin-bottom: -5vh;
+}
+
+#about-me {
+  height: 100vh;
 }
 
 /* desktop only */
@@ -367,54 +368,5 @@ footer {
   }
   #bottom-to-top {
     display: none;
-  }
-}
-
-/* videos bit from old site */
-.videos {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
-  justify-content: space-evenly;
-  align-items: stretch;
-}
-
-.videos div,
-.videos youtube {
-  max-width: 40vw;
-}
-
-.video-description {
-  color: #767684;
-}
-
-iframe {
-  border: none;
-}
-
-/* mobile only */
-@media screen and (max-width: 1280px) {
-  .videos div {
-    min-width: 80vw;
-    max-width: 80vw;
-  }
-
-  iframe {
-    min-width: 80vw;
-    max-width: 80vw;
-    min-height: 80vw;
-    max-height: 80vw;
-  }
-}
-
-/* desktop only */
-@media screen and (min-width: 1280px) {
-  .videos div {
-    max-width: 30vw;
-  }
-
-  iframe {
-    max-height: 30vw;
-    max-width: 30vw;
   }
 }
