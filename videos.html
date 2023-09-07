@@ -9,18 +9,16 @@
     />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/videos.css" />
     <link rel="icon" href="images/favicon.ico" />
   </head>
   <body>
     <header>
       <navbar id="navbar">
         <section id="navbar-text">
-          <h1><a href="/index.html">About me</a></h1>
-          <h1><a href="/videos.html">Video</a></h1>
+          <h1><a href="/index.html">About</a></h1>
           <h1><a href="/coding.html">Coding</a></h1>
-          <h1><a href="/index.html#contact">Contact</a></h1>
-
+          <h1><a href="/design.html">Design</a></h1>
+          <h1><a href="/videos.html">Video</a></h1>
           <!-- Both SVGs are open source from SVG Repo, www.svgrepo.com and have been edited for my needs-->
           <svg
             width="100"
@@ -68,18 +66,18 @@
     </header>
     <div class="page" id="video">
       <div id="projects-description">
-        <h1 class="project-title">Video Editing</h1>
-        <p>
+        <p1>
           Since I made my first stop-motion in 2011, I've been making
           and editing short video content - first for Youtube, and then
           for social media platforms: Instagram, Facebook, and Twitter.
           I have strong knowledge and experience of using Final Cut Pro
           to make dynamic content.
-        </p>
+        </p1>
       </div>
       <div class="videos">
         <div class="youtube">
           <iframe
+            class="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/mYhZMghzws0"
@@ -101,6 +99,7 @@
         </div>
         <div class="youtube">
           <iframe
+            class="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/0yw11HjRyoc"
@@ -121,6 +120,7 @@
         </div>
         <div class="youtube">
           <iframe
+            class="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/TAGjvtDlPgw"
@@ -141,6 +141,7 @@
         </div>
         <div class="youtube">
           <iframe
+            class="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/dfk6l4CHB1I"
@@ -159,6 +160,7 @@
         </div>
         <div class="youtube">
           <iframe
+            class="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/iFlnxj4UlEs"
@@ -179,6 +181,34 @@
         </div>
       </div>
     </div>
+    <script src="scripts/main.js"></script>
+    <footer>
+      <section id="footer-text">
+        <h2 class="left" id="bottom-to-top">
+          <a href="#navbar">click here to go back to top ^ </a>
+        </h2>
+        <h2 class="right">
+          <a
+            id="profile-link"
+            target="_blank"
+            href="https://github.com/jones58"
+            >Github
+          </a>
+          <a
+            id="mail"
+            href="mailto:jkershaw986@gmail.com"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            id="CV link"
+            href="docs/Jack Kershaw CV.pdf"
+            target="_blank"
+            >CV</a
+          >
+        </h2>
+      </section>
+    </footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
