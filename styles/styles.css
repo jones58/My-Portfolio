@@ -112,12 +112,15 @@ p {
 
 h1 {
   font-size: 1.802rem;
+  line-height: 1.802rem;
 }
 h2 {
   font-size: 1.602rem;
+  line-height: 1.602rem;
 }
 h3 {
   font-size: 1.424rem;
+  line-height: 1.424rem;
 }
 
 h4 {
