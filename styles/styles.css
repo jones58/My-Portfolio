@@ -1,3 +1,9 @@
+/* for debugging, use a border 
+* {
+  border: solid 1px black;
+}
+*/
+
 /* set colour scheme refer to with var(--name) elements */
 :root {
   --cream: #fef2eb;
@@ -21,9 +27,6 @@
   font-weight: bold;
 }
 
-* {
-  border: solid 1px black;
-}
 html {
   box-sizing: border-box;
   font-family: "AtkinsonHyperlegible";
