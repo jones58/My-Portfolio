@@ -168,11 +168,42 @@ h4 {
 }
 
 #contact-me {
-  width: 80vw;
-  margin: 0 5vw;
+  width: 100vw;
   height: 100vh;
   background-color: var(--blue);
   color: var(--cream);
+}
+
+form {
+  margin: 0 auto;
+  padding: 0 5vw;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form textarea {
+  background: var(--cream);
+  margin-bottom: 5vw;
+  color: var(--blue);
+  font-size: 1.266rem;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: var(--grey);
+}
+
+form button {
+  background: var(--pink);
+  color: var(--cream);
+  outline: none;
+  cursor: pointer;
+  font-size: 1.266rem;
+  height: 10vh;
 }
 
 /* desktop only */

@@ -27,7 +27,6 @@
             xmlns="http://www.w3.org/2000/svg"
             id="dark-mode"
             class="icon"
-            title="dark mode switcher"
             alt="button to enable user to switch to dark mode, looks like a sun and moon made of circles which rotate when clicked."
           >
             <g>
@@ -40,6 +39,7 @@
                 fill="currentcolor"
               />
             </g>
+            <title>Dark mode</title>
           </svg>
         </section>
       </navbar>
@@ -50,23 +50,36 @@
         currently studying software development with Just IT.
       </h4>
     </div>
-    <div class="page" id="contact-me">
-      <h1>
-        Got a problem that needs fixing, or just want to chat? Get in
-        touch below. <br />
-        <br />
-      </h1>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" /><br /><br />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /><br /><br />
-
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message"></textarea><br /><br />
-
-        <input type="submit" value="Submit" />
+    <div id="contact-me">
+      <form onsubmit="sendEmail(); reset(); return false">
+        <h4>
+          Got a problem that needs fixing, or just want to chat? Get in
+          touch below.
+        </h4>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        /><br /><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        /><br /><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="How can I help?"
+          required
+          rows="4"
+        ></textarea
+        ><br /><br />
+        <button type="submit" value="Submit">Submit</button
+        ><br /><br />
       </form>
     </div>
     <footer>
