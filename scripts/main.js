@@ -26,9 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const originalText = typedText.textContent;
     typedText.textContent = "";
     for (let i = 0; i < originalText.length; i++) {
+      let randomDelay = Math.random() * 100 * i;
       setTimeout(() => {
         typedText.textContent += originalText[i];
-      }, 100 * i);
+      }, 50 * i);
     }
   }
   setTimeout(typeOut, 100);
