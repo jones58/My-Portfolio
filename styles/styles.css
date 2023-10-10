@@ -6,7 +6,7 @@
 
 /* set colour scheme refer to with var(--name) elements */
 :root {
-  --cream: #fef2eb;
+  --cream: #fdf5eb;
   --blue: #061119;
   --green: #32772b;
   --pink: #da3a7f;
@@ -54,7 +54,8 @@ form {
 }
 
 header {
-  color: var(--green);
+  color: var(--pink);
+  background-color: var(--blue);
   text-decoration: none;
 }
 
@@ -100,11 +101,11 @@ a:active {
 }
 
 footer {
+  background-color: var(--blue);
   position: fixed;
   bottom: 0;
   height: 12.5vh;
   width: 100vw;
-  background-color: var(--cream);
   text-transform: uppercase;
 }
 
@@ -140,7 +141,8 @@ h4 {
 }
 
 .darkMode,
-.darkMode footer {
+.darkMode footer,
+.darkMode header {
   background-color: var(--blue);
 }
 
@@ -195,13 +197,13 @@ form textarea {
   color: var(--cream);
   font-size: 1.266rem;
   background-color: var(--blue);
-  border: 1px solid var(--grey);
+  border: 1px solid var(--pink);
   border-radius: 12px;
 }
 
 form input::placeholder,
 form textarea::placeholder {
-  color: var(--grey);
+  color: var(--cream);
 }
 
 form button {
