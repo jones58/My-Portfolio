@@ -178,6 +178,8 @@ h4 {
   height: 100vh;
   background-color: var(--blue);
   color: var(--cream);
+  padding-top: 10rem;
+  margin: 0 auto;
 }
 
 form {
@@ -215,6 +217,7 @@ form button {
   height: 10vh;
   border: none;
   border-radius: 12px;
+  padding: 12px;
 }
 
 /* desktop only */
