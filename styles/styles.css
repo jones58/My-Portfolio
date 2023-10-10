@@ -221,7 +221,7 @@ form button {
     margin: 0 5vw;
   }
 
-  .big-introduction {
+  #big-introduction {
     font-size: 4rem;
     line-height: 4rem;
   }
