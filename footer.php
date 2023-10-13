@@ -38,5 +38,6 @@
       </section>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/php-config.js"></script>
   </body>
 </html>
